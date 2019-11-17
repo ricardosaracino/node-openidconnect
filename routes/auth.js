@@ -22,7 +22,7 @@ router.get('/openid/return',
         failureRedirect: '/'
     }));
 
-
+// https://github.com/ForgeRock/exampleOAuth2Clients
 /// http://idp5.canadacentral.cloudapp.azure.com/opensso/oauth2/.well-known/openid-configuration
 var openAM = {
     // make sure "Client Type: Confidential" & "Token Endpoint Auth Method: client_secret_post"
